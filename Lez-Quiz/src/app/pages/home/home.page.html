@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar style="--background: #06B380;">
+    <ion-button slot="start" style="--background: #06B380;" fill="clear">
+      <ion-menu-button color ="light"></ion-menu-button>
+    </ion-button>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+  <ion-card>
+    <ion-card-content>
+
+      <ion-title>Courses Available</ion-title>
+
+      <ion-button shape="round" fill="clear" expand="block" (click)="eng()">
+        English
+      </ion-button>
+
+      <ion-button shape="round" fill="clear" expand="block" (click)="fil()">
+        Filipino
+      </ion-button>
+
+      <ion-button shape="round" fill="clear" expand="block" (click)="math()">
+        Mathematics
+      </ion-button>
+
+      <ion-button shape="round" fill="clear" expand="block" (click)="sci()">
+        Science
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</div>
+</ion-content>

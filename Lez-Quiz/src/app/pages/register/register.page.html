@@ -1,0 +1,49 @@
+<ion-content>
+  <div class="container">
+  <form [formGroup]="form">
+      
+      <ion-card>
+      <img src = "./assets/icon/lQ.png">
+    
+      <ion-card-header>
+        <ion-card-title>
+          Register
+        </ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+        <ion-item>
+          <ion-label position = "floating">Name</ion-label>
+          <ion-input type = "text" formControlName="name" [(ngModel)]="name" name="name"></ion-input>
+        </ion-item>
+        <app-error-message [field]="form.get('name')" error="required" message="Fill up the form"></app-error-message>
+
+        <ion-item>
+          <ion-label position = "floating">Email</ion-label>
+          <ion-input type = "email" formControlName="email" [(ngModel)]="email" name="email"></ion-input>
+        </ion-item>
+        <app-error-message [field]="form.get('email')" error="required" message="Fill up the form"></app-error-message>
+        <app-error-message [field]="form.get('email')" error="email" message="Email is invalid"></app-error-message>
+
+        <ion-item>
+          <ion-label position = "floating">Password</ion-label>
+          <ion-input type = "password" formControlName="password" [(ngModel)]="password" name="password"></ion-input>
+        </ion-item>
+        <app-error-message [field]="form.get('password')" error="required" message="Fill up the form"></app-error-message>
+        <app-error-message [field]="form.get('password')" error="minlength" message="Minimum of 6 characters"></app-error-message>
+        
+        <ion-button [disabled]="!form.valid" type="submit" (click) ="register()" class = "btn" expand = "block" shape = "round" style="--background: rgb(52, 52, 207);">
+          Submit
+        </ion-button>
+
+        <ion-button (click) ="back()" expand = "block" shape = "round" style="--background: rgb(40, 116, 204);">
+          Back
+        </ion-button>
+
+      </ion-card-content>
+      </ion-card>
+    
+    </form>
+  </div>
+</ion-content>

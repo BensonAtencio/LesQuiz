@@ -1,0 +1,26 @@
+ion-card{
+    margin: auto;
+    width: 90%;
+    margin-top: 40%;
+    --background: white;
+    
+
+    img{
+        width: 100%;
+    }
+}
+
+ion-content{
+    height: 100vh;
+
+    .btn{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+
+        ion-button{
+            width: 80%;
+            --background: #e44444;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <ion-list-header style="color: black;">LesQuiz</ion-list-header>
+          <ion-note>Educational Application</ion-note>
+        </ion-list>
+
+
+        <ion-list>
+
+          <ion-menu-toggle>
+              <ion-item routerDirection="root" routerLink="home" routerLinkActive="selected" color="clear">
+                <ion-label style="color: black; font-size: 17px;">
+                    <ion-icon name="home-outline" slot="start" color="light" style="font-size: 20px"></ion-icon>
+                    Home
+                </ion-label>
+              </ion-item>
+          </ion-menu-toggle>
+          <br>
+          <ion-menu-toggle>
+            <ion-item routerDirection="root" routerLink="about" routerLinkActive="selected" color="clear">
+              <ion-label style="color: black; font-size: 17px;">
+                  <ion-icon name="help-outline" slot="start" color="light" style="font-size: 20px"></ion-icon>
+                  About Us
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <br>
+          <ion-menu-toggle>
+            <ion-item button (click)="logout()" color="clear">
+              <ion-label style="color: black; font-size: 17px;">
+                <ion-icon name="log-out-outline" slot="start" color="light" style="font-size: 20px;"></ion-icon>
+                Logout
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+
+        
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

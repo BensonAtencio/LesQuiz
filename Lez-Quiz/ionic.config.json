@@ -1,0 +1,7 @@
+{
+  "name": "Lez-Quiz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

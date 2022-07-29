@@ -1,0 +1,44 @@
+<ion-content>
+  <div class = "container">
+    <form [formGroup]="form">
+    
+     <ion-card>
+        <img src = "./assets/icon/lQ.png">
+      
+        <ion-card-header>
+          <ion-card-title>
+            LOGIN
+          </ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+
+          <ion-item>
+            <ion-label position = "floating">Email</ion-label>
+            <ion-input type = "email" formControlName="email" [(ngModel)]="email" name="email"></ion-input>
+          </ion-item>
+          <app-error-message [field]="form.get('email')" error="required" message="Fill up the form"></app-error-message>
+          <app-error-message [field]="form.get('email')" error="email" message="Email is Invalid"></app-error-message>
+
+          <ion-item>
+            <ion-label position = "floating">Password</ion-label>
+            <ion-input type = "password" formControlName="password" [(ngModel)]="password" name="password"></ion-input>
+          </ion-item>
+          <app-error-message [field]="form.get('password')" error="required" message="Fill up the form"></app-error-message>
+
+          <ion-button (click)="forgotPass()" fill="clear" style ="color: black;" size="full">
+            Forgot Password?
+          </ion-button>
+          
+          <ion-button (click) ="LogMeIn()" expand = "block" shape = "round" style="--background: rgb(52, 52, 207);" [disabled]="!form.valid"
+          id="loginButton">
+            Log in
+          </ion-button>
+          <ion-button (click) ="Register()" expand = "block" shape = "round" fill = "clear" style="--background: rgb(6, 68, 139)">
+            Register
+          </ion-button>   
+        </ion-card-content>
+      </ion-card>
+  </form>
+  </div>
+</ion-content>
