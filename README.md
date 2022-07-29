@@ -6,4 +6,5 @@
 ### 2. Run npm install
 ### 3. Run npm install firebase
 ### 4. Run npm install @angular/fire
-### 5. Run ionic serve and see if it is working
+### 5. Run npm install rxjs
+### 6. Run ionic serve and see if it is working
