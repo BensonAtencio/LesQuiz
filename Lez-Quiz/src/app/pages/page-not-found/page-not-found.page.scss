@@ -1,20 +1,28 @@
 ion-card{
     margin: auto;
     width: 90%;
-    margin-top: 40%;
+    margin-top: 2%;
     --background: white;
     
 
     img{
-        width: 100%;
+        width: 80%;
+
+    }
+
+    .pic{
+        
+        display: flex;
+        justify-content: center;
+        height: 70&;
     }
 }
 
 ion-content{
-    height: 100vh;
+    
 
     .btn{
-        margin-top: 5%;
+        
         display: flex;
         justify-content: center;
 

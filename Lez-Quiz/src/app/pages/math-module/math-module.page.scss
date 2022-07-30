@@ -40,12 +40,17 @@ border-radius: 20px;
 }
 ion-card-content{
 color: black;
-p{
-    display: inline-block;
-    text-align: justify;
-    text-indent: 1rem;
-    font-size: 17px;
-}
+        p{
+            display: inline-block;
+            text-align: justify;
+            text-indent: 1rem;
+            font-size: 17px;
+        }
+
+        .pic{
+            display: flex;
+            justify-content: center;
+        }
 
 }
 img{
