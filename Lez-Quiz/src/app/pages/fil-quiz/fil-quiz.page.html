@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar style="--background: #06B380;">
+    <ion-button slot="start"  fill="clear">
+      <ion-menu-button color ="light" style="font-size: 30px;"></ion-menu-button>
+    </ion-button>
+
+    <ion-title>Quiz</ion-title>
+
+    <ion-button slot="end" class="btn" routerLink="/quiz-selection">
+      Back
+    </ion-button>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Course Title: Filipino Course/s</ion-card-title>
+      <ion-card-subtitle>The quiz are consist of 15 items</ion-card-subtitle>
+      <ion-card-subtitle>Good Luck!!</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  
+  <ion-card>
+    <ion-card-content>
+      <div class="btn">
+        <ion-button *ngIf="!show" (click)="answer()" shape="round">Les-Quiz!!</ion-button>
+      </div>
+
+        <ion-list *ngIf="show">
+            <ion-radio-group [(ngModel)]="qAnswer" >
+              <ion-list-header>
+                <ion-label>Question: {{index + 1}} {{qstn[index].questionText}}</ion-label>
+              </ion-list-header>
+
+              <ion-item *ngIf="qstn[index].option1">
+                <ion-label>{{qstn[index].option1}}</ion-label>
+                <ion-radio slot="start" [value]="qstn[index].option1"></ion-radio>
+              </ion-item>
+          
+              <ion-item *ngIf="qstn[index].option2">
+                <ion-label>{{qstn[index].option2}}</ion-label>
+                <ion-radio slot="start" [value]="qstn[index].option2"></ion-radio>
+              </ion-item>
+          
+              <ion-item *ngIf="qstn[index].option3">
+                <ion-label>{{qstn[index].option3}}</ion-label>
+                <ion-radio slot="start" [value]="qstn[index].option3"></ion-radio>
+              </ion-item>
+
+              <ion-item *ngIf="qstn[index].option4">
+                <ion-label>{{qstn[index].option4}}</ion-label>
+                <ion-radio slot="start" [value]="qstn[index].option4"></ion-radio>
+              </ion-item>
+
+              <div class="btn">
+                <ion-button expand="block" (click)="answer()" shape="round"> Sunod </ion-button>
+              </div>
+            </ion-radio-group>
+        </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

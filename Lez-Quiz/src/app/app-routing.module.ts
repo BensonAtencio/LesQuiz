@@ -52,9 +52,38 @@ const routes: Routes = [
     canActivate: [AuthGuard]
   },
   {
+    path: 'quiz-selection',
+    loadChildren: () => import('./pages/quiz-selection/quiz-selection.module').then( m => m.QuizSelectionPageModule),
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'eng-quiz',
+    loadChildren: () => import('./pages/eng-quiz/eng-quiz.module').then( m => m.EngQuizPageModule),
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'fil-quiz',
+    loadChildren: () => import('./pages/fil-quiz/fil-quiz.module').then( m => m.FilQuizPageModule),
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'sci-quiz',
+    loadChildren: () => import('./pages/sci-quiz/sci-quiz.module').then( m => m.SciQuizPageModule),
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'math-quiz',
+    loadChildren: () => import('./pages/math-quiz/math-quiz.module').then( m => m.MathQuizPageModule),
+    canActivate: [AuthGuard]
+  },
+  {
     path: '**',
     loadChildren: () => import('./pages/page-not-found/page-not-found.module').then( m => m.PageNotFoundPageModule)
   }
+  
+
+  
+
   
 ];
 

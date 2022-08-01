@@ -2,12 +2,12 @@
     "Qstns": [
         {
             "questionText": "Alin sa pag pipilian ang hindi simulain ng komunikasyon",
-            "option1": "Ang komunikasyon ay nagsisimula sa sarili",
-            "option2": "Ang komunikasyon ay nangangailangan ng ibang tao",
-            "option3": "Ang komunikasyon ay isang proseso",
-            "option4": "Ang komunikasyon ay hindi gumagamit ng simbolo",
+            "option1": "Ito ay nagsisimula sa sarili",
+            "option2": "Ito ay nangangailangan ng ibang tao",
+            "option3": "Ito ay isang proseso",
+            "option4": "Ito ay hindi gumagamit ng simbolo",
 
-            "answer": "Ang komunikasyon ay hindi gumagamit ng simbolo"
+            "answer": "Ito ay hindi gumagamit ng simbolo"
         },
         {
             "questionText": "Nagkakaroon ng pagpapalitan ng impormasyon sa dalawang tao",
@@ -126,8 +126,7 @@
             "answer": "Mali"
         },
         {
-            "questionText": "Press next to finish the quiz",
-            "option1": "Yes",
+            "questionText": "Pindutin ang 'sunod' upang matapos ang pagsusulit",
             
             "answer": "Yes"
         }

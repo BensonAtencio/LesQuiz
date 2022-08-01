@@ -2,12 +2,12 @@
     "Qstns": [
         {
             "questionText": "Which of the following is not true about function?",
-            "option1": "Function is composed of two quantities where one depends on the other.",
-            "option2": "One-to-one correspondence is a function.",
-            "option3": "Many-to-one correspondence is a function.",
-            "option4": "One-to-many correspondence is a function.",
+            "option1": "One-to-one correspondence.",
+            "option2": "Many-to-one correspondence.",
+            "option3": "One-to-many correspondence.",
+            "option4": "None of the Above",
 
-            "answer": "One-to-many correspondence is a function."
+            "answer": "One-to-many correspondence."
         },
         {
             "questionText": "In a relation, what do you call the y values or the output?",
@@ -29,12 +29,12 @@
         },
         {
             "questionText": "Which of the following relations is/are function/s?",
-            "option1": "the rule which assigns to each person the name of his brother",
-            "option2": "the rule which assigns the name of teachers you havec. the rule which assigns a pen and the color of its ink",
-            "option3": "the rule which assigns each person a surname",
-            "option4": "the rule which assigns the name of teachers you have ",
+            "option1": "assigns the name of pets you have",
+            "option2": "assigns the name of bff you have",
+            "option3": "assigns each person a surname",
+            "option4": "All of the above",
 
-            "answer": "the rule which assigns each person a surname"
+            "answer": "assigns each person a surname"
         },
         {
             "questionText": "What do you call a relation where each element in the domain is related to only one value in the range by some rules?",
@@ -92,7 +92,6 @@
         },
         {
             "questionText": "Press next to finish the quiz",
-            "option1": "Yes",
             
             "answer": "Yes"
         }

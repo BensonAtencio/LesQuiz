@@ -127,8 +127,7 @@
         },
         {
             "questionText": "Press next to finish the quiz",
-            "option1": "Yes",
-            
+    
             "answer": "Yes"
         }
     ]

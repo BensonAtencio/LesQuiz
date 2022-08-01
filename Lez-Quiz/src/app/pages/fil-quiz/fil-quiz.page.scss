@@ -1,0 +1,47 @@
+ion-header{
+    .btn{
+        --background: rgb(184, 37, 37);
+    }
+
+    ion-title{
+        text-align: center;
+        color: black;
+        font-size: 25px !important;
+    }
+}
+
+
+
+ion-card{
+    --background: white;
+    border-radius: 20px;
+
+    ion-button{
+        --background: rgb(184, 37, 37);
+        
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    ion-card-title{
+        color: black;
+        text-align: center;
+    }
+
+    ion-card-subtitle{
+        color: black;
+        font-size: 17px;
+    }
+}
+
+ion-list, ion-label{
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+ion-item{
+    --background: white;
+    color: black;
+}

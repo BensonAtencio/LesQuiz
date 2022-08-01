@@ -1,0 +1,28 @@
+ion-menu-button{
+    //width: 100%;
+    font-size: 50px !important;
+}
+
+ion-title{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+ion-button{
+    --background: rgb(184, 37, 37);
+    color: white;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+ion-card{
+    margin: auto;
+   
+    width: 80%;
+    border-radius: 20px;
+    --background: #10946c;
+}
