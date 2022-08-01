@@ -1,0 +1,100 @@
+{
+    "Qstns": [
+        {
+            "questionText": "Which of the following is not true about function?",
+            "option1": "Function is composed of two quantities where one depends on the other.",
+            "option2": "One-to-one correspondence is a function.",
+            "option3": "Many-to-one correspondence is a function.",
+            "option4": "One-to-many correspondence is a function.",
+
+            "answer": "One-to-many correspondence is a function."
+        },
+        {
+            "questionText": "In a relation, what do you call the y values or the output?",
+            "option1": "Piecewise",
+            "option2": "Range",
+            "option3": "Domain",
+            "option4": "Independent",
+
+            "answer": "Range"
+        },
+        {
+            "questionText": "Which of the following relations is/are function/s?",
+            "option1": "x = {(-1,2), (-3,4), (-1,7), (5,1)}",
+            "option2": "g = {(-3,2), (3,1), (-3,2), (5,7)}",
+            "option3": "h = {(6,1), (-2,3), (2, 6), (7, 2)}",
+            "option4": "y = {(2,3), (3,2), (-2,3), (3, -2)}",
+
+            "answer": "h = {(6,1), (-2,3), (2, 6), (7, 2)}"
+        },
+        {
+            "questionText": "Which of the following relations is/are function/s?",
+            "option1": "the rule which assigns to each person the name of his brother",
+            "option2": "the rule which assigns the name of teachers you havec. the rule which assigns a pen and the color of its ink",
+            "option3": "the rule which assigns each person a surname",
+            "option4": "the rule which assigns the name of teachers you have ",
+
+            "answer": "the rule which assigns each person a surname"
+        },
+        {
+            "questionText": "What do you call a relation where each element in the domain is related to only one value in the range by some rules?",
+            "option1": "Function",
+            "option2": "Range",
+            "option3": "Domain",
+            "option4": "Independent",
+
+            "answer": "Function"
+        },
+        {
+            "questionText": "In a relation, what do you call the set of x values or the input?",
+            "option1": "Piecewise",
+            "option2": "Range",
+            "option3": "Domain",
+            "option4": "Dependent",
+
+            "answer": "Domain"
+        },
+        {
+            "questionText": "What will you get if you divide the simple interest by the product of the rate and time?",
+            "option1": "present value of compound interest ",
+            "option2": "present value of simple interest",
+            "option3": "maturity value of compound interest",
+            "option4": "maturity value of simple interest",
+
+            "answer": "present value of simple interest"
+        },
+        {
+            "questionText": "If the investment amounting to ₱45,000 earned an interest of ₱3,500 how much will be the maturity value?",
+            "option1": "₱41,500",
+            "option2": "₱48,500",
+            "option3": "₱40,000",
+            "option4": "₱25,000",
+
+            "answer": "₱41,500"
+        },
+        {
+            "questionText": "Given that P = ₱15,250, r = 3.25% and t= 3 years, find the simple interest.",
+            "option1": "₱24,868.80",
+            "option2": "₱14,868.80",
+            "option3": "₱1,486.88",
+            "option4": "₱148.69",
+
+            "answer": "₱1,486.88"
+        },
+        {
+            "questionText": "Given that F = ₱50,000 and P = ₱35,000 how much is the compound interest?",
+            "option1": "₱15, 000",
+            "option2": "₱25,000",
+            "option3": "₱35,000",
+            "option4": "₱45,000",
+
+            "answer": "₱15, 000"
+        },
+        {
+            "questionText": "Press next to finish the quiz",
+            "option1": "Yes",
+            
+            "answer": "Yes"
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "Qstns": [
+        {
+            "questionText": "Alin sa pag pipilian ang hindi simulain ng komunikasyon",
+            "option1": "Ang komunikasyon ay nagsisimula sa sarili",
+            "option2": "Ang komunikasyon ay nangangailangan ng ibang tao",
+            "option3": "Ang komunikasyon ay isang proseso",
+            "option4": "Ang komunikasyon ay hindi gumagamit ng simbolo",
+
+            "answer": "Ang komunikasyon ay hindi gumagamit ng simbolo"
+        },
+        {
+            "questionText": "Nagkakaroon ng pagpapalitan ng impormasyon sa dalawang tao",
+            "option1": "Komunikasyon bilang transaksyon",
+            "option2": "Komunikasyon bilang aksyon",
+            "option3": "Komunikasyon bilang interaksyon",
+            "option4": "Wala sa nabanggit",
+
+            "answer": "Komunikasyon bilang interaksyon"
+        },
+        {
+            "questionText": "Ang pinagmulan ng mensahe (sender) ay naghahatid ng mensahe tungo sa tagatanggap (receiver)",
+            "option1": "Komunikasyon bilang transaksyon",
+            "option2": "Komunikasyon bilang aksyon",
+            "option3": "Komunikasyon bilang interaksyon",
+            "option4": "Wala sa nabanggit",
+
+            "answer": "Komunikasyon bilang aksyon"
+        },
+        {
+            "questionText": "Pagbabahaginan ng kahulugan at unawaan sa pagitan ng isa o higit pang tao",
+            "option1": "Komunikasyon bilang transaksyon",
+            "option2": "Komunikasyon bilang aksyon",
+            "option3": "Komunikasyon bilang interaksyon",
+            "option4": "Wala sa nabanggit",
+
+            "answer": "Komunikasyon bilang transaksyon"
+        },
+        {
+            "questionText": "Ang salitang Tagalog na 'kamay' ay 'ima' sa wikang Ilokano, 'kamot' naman sa Bikolano, at 'gamat' naman sa Kapampangan.",
+            "option1": "Arbitraryo",
+            "option2": "Dinamiko",
+            "option3": "Estilo",
+            "option4": "Idyolek",
+
+            "answer": "Arbitraryo"
+        },
+        {
+            "questionText": "ang salitang 'gimmick' na nasa wikang Ingles ay may kahulugang 'pakulo o paraan ng pagpukaw ng atensyon.' Habang ngayon nagkaroon ito ng kahulugan na 'pamamasyal kasama ng mga kaibigan.'",
+            "option1": "Arbitraryo",
+            "option2": "Dinamiko",
+            "option3": "Estilo",
+            "option4": "Idyolek",
+
+            "answer": "Dinamiko"
+        },
+        {
+            "questionText": "Kapag iyong nakasalubong ang isang kaibigan ay maari mong batiin sa pahayag na 'Hoy' kamusta ka na? Kapag bumisita ka sa iyong lolo at lola ay binabati natin sila ng kumusta po kayo?",
+            "option1": "Arbitraryo",
+            "option2": "Dinamiko",
+            "option3": "Estilo",
+            "option4": "Idyolek",
+
+            "answer": "Estilo"
+        },
+        {
+            "questionText": "Ito ang barayting kaugnay ng personal na kakanyahan ng bawat indibiduwal na gumagamit ng wika.",
+            "option1": "Arbitraryo",
+            "option2": "Dinamiko",
+            "option3": "Estilo",
+            "option4": "Idyolek",
+
+            "answer": "Idyolek"
+        },
+        {
+            "questionText": "Ang salitang ito ay nanggaling sa salitang Griyego na 'homo' na ang ibig sabihin ay pareho at salitang 'genos' na ang ibig sabihin ay uri o yari.",
+            "option1": "Homogenous",
+            "option2": "Heterogenous",
+            "option3": "A at B",
+            "option4": "Wala sa nabanggit",
+
+            "answer": "Homogenous"
+        },
+        {
+            "questionText": "Ito ang wikang opisyal ng Pilipinas",
+            "option1": "Filipino",
+            "option2": "Tagalog",
+            "option3": "Ingles",
+            "option4": "Wala sa nabanggit",
+
+            "answer": "Filipino"
+        },
+        {
+            "questionText": "Ang wikang tagalog ang wikang opisyal ng Pilipinas",
+            "option1": "Tama",
+            "option2": "Mali",
+
+            "answer": "Tama"
+        },
+        {
+            "questionText": "Ang instrumental na gamit ng wika ay nakatuon sa pagpapahayag ng pangangailangan ng tao tulad ng pagkain, inumin at iba pa.",
+            "option1": "Tama",
+            "option2": "Mali",
+
+            "answer": "Tama"
+        },
+        {
+            "questionText": "Ang interaksyonal na gamit ng wika ay nagbibigay pansin sa pahayag kaugnay ng pagbuo ng ugnayan o relasyon.",
+            "option1": "Tama",
+            "option2": "Mali",
+
+            "answer": "Tama"
+        },
+        {
+            "questionText": "Ang gamit na regulatori o regulatoryo naman ay nakapokus sa paggamit ng wika sa pagbibigay ng utos o gabay sa posibleng gawin ng tao.",
+            "option1": "Tama",
+            "option2": "Mali",
+
+            "answer": "Tama"
+        },
+        {
+            "questionText": "Ang heuristiko na gamit ng wika ay tumutukoy naman sa pagpapahayag ng damdamin, opinyon, at indibidwal na identidad.",
+            "option1": "Tama",
+            "option2": "Mali",
+
+            "answer": "Mali"
+        },
+        {
+            "questionText": "Press next to finish the quiz",
+            "option1": "Yes",
+            
+            "answer": "Yes"
+        }
+    ]
+}

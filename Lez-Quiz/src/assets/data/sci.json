@@ -1,0 +1,135 @@
+{
+    "Qstns": [
+        {
+            "questionText": "What is the process by which plants manufacture their own food by converting solar energy into chemical energy?",
+            "option1": "Calvin cycle",
+            "option2": "Photosynthesis",
+            "option3": "Cellular respiration",
+            "option4": "Photodissociation",
+            
+            "answer": "Photosynthesis"
+        },
+        {
+            "questionText": "The largest among the four subsystems",
+            "option1": "Biosphere",
+            "option2": "Geosphere",
+            "option3": "Atmosphere",
+            "option4": "Hydrosphere",
+            
+            "answer": "Geosphere"
+        },
+        {
+            "questionText": "It encompasses all life forms on earth",
+            "option1": "Biosphere",
+            "option2": "Geosphere",
+            "option3": "Atmosphere",
+            "option4": "Hydrosphere",
+            
+            "answer": "Biosphere"
+        },
+        {
+            "questionText": "The gaseous part of the Earth composed of several trace gases necessary to support the existence of all living components such as plants and animals.",
+            "option1": "Biosphere",
+            "option2": "Geosphere",
+            "option3": "Atmosphere",
+            "option4": "Hydrosphere",
+            
+            "answer": "Atmosphere"
+        },
+        {
+            "questionText": "composed of all the waters on earth such as liquid water found in oceans, lakes and streams, polar ice which is solid in form, and water vapor that results from evaporation of liquid water.",
+            "option1": "Biosphere",
+            "option2": "Geosphere",
+            "option3": "Atmosphere",
+            "option4": "Hydrosphere",
+            
+            "answer": "Hydrosphere"
+        },
+        {
+            "questionText": "It contains silicon and oxygen and may consist of a metal.",
+            "option1": "Silicate mineral",
+            "option2": "Nonsilicate mineral",
+            "option3": "Silicon mineral",
+            "option4": "Non of the above",
+            
+            "answer": "Silicate mineral"
+        },
+        {
+            "questionText": "The following are the properties of minerals, exceptt one.",
+            "option1": "Color",
+            "option2": "Density",
+            "option3": "Streak",
+            "option4": "Size",
+            
+            "answer": "Size"
+        },
+        {
+            "questionText": "Refers to the color of mineral in powdered form.",
+            "option1": "Color",
+            "option2": "Density",
+            "option3": "Streak",
+            "option4": "Size",
+            
+            "answer": "Streak"
+        },
+        {
+            "questionText": "It is the result of the reflection of visible light.",
+            "option1": "Color",
+            "option2": "Density",
+            "option3": "Streak",
+            "option4": "Size",
+            
+            "answer": "Color"
+        },
+        {
+            "questionText": "Defined as the compactness of a sample of matter.",
+            "option1": "Color",
+            "option2": "Density",
+            "option3": "Streak",
+            "option4": "Size",
+            
+            "answer": "Density"
+        },
+        {
+            "questionText": "The size of a planet is directly related to its gravitational pull.",
+            "option1": "True",
+            "option2": "False",
+
+            "answer": "True"
+        },
+        {
+            "questionText": "On Earth, it is possible without a biologically essential compound called water (H2O).",
+            "option1": "True",
+            "option2": "False",
+
+            "answer": "False"
+        },
+        {
+            "questionText": "Earth interacts gravitationally with the sun.",
+            "option1": "True",
+            "option2": "False",
+
+            "answer": "True"
+        },
+        {
+            "questionText": "If we compare the earth to an apple, the atmosphere is not relatively the size of its peel.",
+            "option1": "True",
+            "option2": "False",
+
+            "answer": "False"
+        },
+        {
+            "questionText": "Neptune is the largest planet in the solar system.",
+            "option1": "True",
+            "option2": "False",
+
+            "answer": "False"
+        },
+        {
+            "questionText": "Press next to finish the quiz",
+            "option1": "Yes",
+            
+            "answer": "Yes"
+        }
+    ]
+}

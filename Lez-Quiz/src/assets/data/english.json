@@ -1,0 +1,135 @@
+{
+    "Qstns": [
+        {
+            "questionText": "It is the exchange of thoughts, messages, or information as by speech, signals, writing or behavior.",
+            "option1": "communication",
+            "option2": "feedback",
+            "option3": "language",
+            "option4": "message",
+            
+            "answer":"communication"
+        },
+        {
+            "questionText": "These are considered forms of communication. [1. talking clearly, 2. chewing gum, 3. sending email, 4. looking bored].",
+            "option1": "1234",
+            "option2": "134 only",
+            "option3": "342 only",
+            "option4": "1 only",
+
+            "answer": "134 only"
+        },
+        {
+            "questionText": "This body language shows that one is listening.",
+            "option1": "nodding and making eye contact",
+            "option2": "looking out of the window",
+            "option3": "turning away from  the speaker ",
+            "option4": "whistling while biting nails",
+
+            "answer": "nodding and making eye contact"
+        },
+        {
+            "questionText": "It is the sender of the message.",
+            "option1": "barrier",
+            "option2": "originator",
+            "option3": "receiver",
+            "option4": "sender",
+
+            "answer": "sender"
+        },
+        {
+            "questionText": "It is a good indication that good communication occurs.",
+            "option1": "destructed",
+            "option2": "confused",
+            "option3": "unreceived",
+            "option4": "shared",
+
+            "answer": "shared"
+        },
+        {
+            "questionText": "This is the BEST way to continue communication.",
+            "option1": "active listening",
+            "option2": "asking questions",
+            "option3": "not interrupting",
+            "option4": "making good eye contact",
+
+            "answer": "active listening"
+        },
+        {
+            "questionText": "It is known when the receiver gives a verbal or non-verbal message.",
+            "option1": "answer",
+            "option2": "feedback",
+            "option3": "response",
+            "option4": "none given",
+
+            "answer": "feedback"
+        },
+        {
+            "questionText": " This is to be avoided for effective communication.",
+            "option1": "ambiguity",
+            "option2": "listening",
+            "option3": "politeness",
+            "option4": "sharing of activity",
+
+            "answer": "ambiguity"
+        },
+        {
+            "questionText": " This is essential to an effective communication.",
+            "option1": "three-way process",
+            "option2": "both a one-way and a two-way process",
+            "option3": "one-way process",
+            "option4": "two-way process",
+
+            "answer": "two-way process"
+        },
+        {
+            "questionText": "This refers to the responsibility of the person who receives the message for communication to take place.",
+            "option1": "feedback",
+            "option2": "non-verbal clues",
+            "option3": "perception",
+            "option4": "self-concept",
+
+            "answer": "perception"
+        },
+        {
+            "questionText": "There will be order and peace in the world without communication.",
+            "option1": "true",
+            "option2": "false",
+
+            "answer": "false"
+        },
+        {
+            "questionText": "Along with the extensive revamp in most aspects of human life, ways of communication also change.",
+            "option1": "true",
+            "option2": "false",
+
+            "answer": "true"
+        },
+        {
+            "questionText": "Schramm Model is the most complicated example of human communication process.",
+            "option1": "true",
+            "option2": "false",
+
+            "answer": "false"
+        },
+        {
+            "questionText": "In the interaction model, communication is a one-way process.",
+            "option1": "true",
+            "option2": "false",
+
+            "answer": "false"
+        },
+        {
+            "questionText": "Communication is merely successful when conflict was absent in the process.",
+            "option1": "true",
+            "option2": "false",
+
+            "answer": "true"
+        },
+        {
+            "questionText": "Press next to finish the quiz",
+            "option1": "Yes",
+            
+            "answer": "Yes"
+        }
+    ]
+}
