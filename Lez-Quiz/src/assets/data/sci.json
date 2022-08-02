@@ -126,7 +126,7 @@
             "answer": "False"
         },
         {
-            "questionText": "Press next to finish the quiz",
+            "questionText": "Congratulations, you finished the quiz!",
             
             "answer": "Yes"
         }
